@@ -14,9 +14,11 @@ const CACHE = {};
 
 const props = {
   tabs: {
+    type: 'default',
     selected: 0,
-    triggerHref: '#',
     role: 'navigation',
+    scrollIntoView: false,
+    selectionMode: 'automatic'
   },
   tab: {
     href: '#',
@@ -223,7 +225,7 @@ class LandingPage extends React.Component {
               aria-label="Tab navigation"
               className="certification-tab"
             >
-              <Tab {...props.tab} label="Magento 2">
+              <Tab {...props.tab} label="Magento 2" >
                 <div className="bx--grid bx--grid--no-gutter bx--grid--full-width">
                   <div className="bx--row landing-page__tab-content">
                     <div
