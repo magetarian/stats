@@ -111,5 +111,8 @@
     "printWidth": 80,
     "singleQuote": true,
     "trailingComma": "es5"
+  },
+  "engines": {
+    "node": ">=12 <=14"
   }
 }
