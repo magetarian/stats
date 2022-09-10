@@ -1,0 +1,41 @@
+.disclaimer-banner {
+  font-size: 0.875rem;
+  line-height: 1.125rem;
+  letter-spacing: 0.16px;
+  color: #fff;
+  font-weight: 600;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 6000;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  height: 32px;
+  padding-left: 1rem;
+  background: $support-04;
+}
+
+.disclaimer-text {
+  font-weight: 400;
+  a {
+    color: #ffffff !important;
+  }
+}
+
+.disclaimer-text-mobile {
+  display: inline;
+}
+
+.disclaimer-text-full {
+  display: none;
+}
+
+@include carbon--breakpoint('md') {
+  .disclaimer-text-mobile {
+    display: none;
+  }
+  .disclaimer-text-full {
+    display: inline;
+  }
+}

@@ -1,0 +1,25 @@
+.mc-footer {
+  background-color: black;
+  padding-top: 2rem;
+  padding-bottom: 8rem;
+  color: #f4f4f4;
+  font-size: 0.875rem;
+  a {
+    color: white;
+    text-decoration: none;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+  .bx--list__item {
+    margin-top: 1rem;
+  }
+  .footer-small-item {
+    padding: 0.1em;
+    font-size: 0.8em;
+  }
+
+  .no-margin {
+    margin-top: 0.1em !important;
+  }
+}
