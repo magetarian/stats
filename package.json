@@ -49,14 +49,14 @@
     "carbon-components-react": "7.59.1",
     "carbon-icons": "7.0.7",
     "concurrently": "5.2.0",
-    "d3": "^5.14.2",
+    "d3": "5.14.2",
     "graphql": "14.3.1",
     "history": "5.0.0",
-    "react": "^16.8.6",
-    "react-dom": "^16.8.6",
+    "react": "16.14.0",
+    "react-dom": "16.14.0",
     "react-ga": "3.1.1",
     "react-router-cache-route": "1.9.0",
-    "react-router-dom": "^5.0.0",
+    "react-router-dom": "5.3.3",
     "react-router-sitemap": "1.2.0",
     "react-scripts": "2.1.8",
     "remove": "0.1.5"
@@ -64,12 +64,12 @@
   "devDependencies": {
     "@commitlint/cli": "17.1.2",
     "@commitlint/config-conventional": "17.1.0",
+    "enzyme": "3.9.0",
+    "enzyme-adapter-react-16": "1.12.1",
     "husky": "^8.0.1",
     "lint-staged": "13.0.3",
     "node-sass": "4.14.1",
-    "prettier": "2.7.1",
-    "enzyme": "3.9.0",
-    "enzyme-adapter-react-16": "1.12.1"
+    "prettier": "2.7.1"
   },
   "eslintConfig": {
     "extends": "react-app"
